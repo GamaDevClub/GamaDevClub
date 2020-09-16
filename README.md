@@ -71,11 +71,8 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 - André Vinicius Fanchini Terrasan < [LinkedIn](https://www.linkedin.com/in/andreterrasan) . [Github](https://github.com/andrevft) >
 - Antonio Thiele < [LinkedIn](https://www.linkedin.com/in/antoniothiele/) . [Github](https://github.com/capelaum) >
 - Bruno Luiz de Siqueira < [LinkedIn](https://www.linkedin.com/in/brunoluizdesiqueira) . [Github](https://github.com/brunoluizdesiqueira) >
-- George Pereira de Azevedo Maia < [LinkedIn](https://www.linkedin.com/in/georgemaia/) . [Github](https://github.com/georgemaia) >
 - Jackson Alves Sousa < [LinkedIn](https://www.linkedin.com/in/jackson-alves541/) . [Github](https://github.com/jackson541/) >
-- Luís Vinicius Capelletto < [LinkedIn](https://www.linkedin.com/in/luis-capelletto/) . [Github](https://github.com/antoniocarlos) >
 - Vinicius Passos < [LinkedIn](https://www.linkedin.com/in/vtpa/) . [Github](https://github.com/vtpa) >
-- Vitor José da Silva < [LinkedIn](https://www.linkedin.com/in/vitor-jose/) . [Github](https://github.com/vitormj) >
 - Vivian Barbosa Reis < [LinkedIn](https://www.linkedin.com/in/vivianbarbosareis/) . [Github](https://github.com/vivianreis) >
 
 
