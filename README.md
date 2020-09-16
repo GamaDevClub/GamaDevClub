@@ -1,3 +1,5 @@
+<img src="./assets/cabec.jpg" alt="Hiring Coders - Grupo 3" />
+
 # DevClub - Grupo 3 Hiring Coders
 *Projeto Semifinal - Hiring Coders (Desafio do Chatbot)*
 
@@ -50,9 +52,9 @@ Você ou outros usuários com os quais você compartilha este arquivo podem usar
 ### Amazon CloudWatch - Monitoração do Lex e Lambda
 As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução capturados foram criados Dashboards no CloudWatch para monitorar o tempo de respostas de ambos, volume de execuções e quantidade de erros. É possível consultar os dashboards através do link:
 
-Leiadev_bot: https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Leia_Watch&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTo3N2FmMTdiNy1kYzE0LTQ4YTItOWU3Zi01YzRlNjE2NjkwZGQiLCJNIjoiUHVibGljIn0=
+- [Dashboard AWS Lex: Leiadev_bot](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Leia_Watch&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTo3N2FmMTdiNy1kYzE0LTQ4YTItOWU3Zi01YzRlNjE2NjkwZGQiLCJNIjoiUHVibGljIn0=)
 
-LeiaHook: https://cloudwatch.amazonaws.com/dashboard.html?dashboard=LeiaHook&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTozYTEyM2Q3Zi0yYzYwLTRjNGUtYjdmNy01NjNiOWI0YWZiMGUiLCJNIjoiUHVibGljIn0=
+- [Dashboard AWS Lambda Function: LeiaHook](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=LeiaHook&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTozYTEyM2Q3Zi0yYzYwLTRjNGUtYjdmNy01NjNiOWI0YWZiMGUiLCJNIjoiUHVibGljIn0=)
 
 
 ## 🧭 Roadmap
