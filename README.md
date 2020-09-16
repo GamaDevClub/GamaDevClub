@@ -13,9 +13,27 @@ Com base no desafio e no problema aceito, nasceu a *Leia*, personagem do nosso c
 3. Prazo de entrega: Disponibiliza serviços como retirar no ponto de venda ou Entrega Expressa
 4. Auxilio na busca: Mostra de forma resumida produtos relevantes baseado na busca do cliente, na própria conversa com a *Leia*
 
+## 📱 Telas
+### Chatbot Lex
 <img src="./assets/leia_bot3.gif" alt="Chatbot AWS Lex" />
 
-## ⚙ Tecnologias utilizadas / Utilização
+### Aplicação do Chatbot na loja
+<img src="./assets/tela_loja1.jpg" alt="Aplicação do Chatbot na loja" />
+
+### Configurações do chatbot no Painel VTEX
+<img src="./assets/tela_loja2.jpg" alt="Configurações do chatbot no Painel VTEX" />
+
+## ⚙ Tecnologias / Utilização
+
+### VTEX Store Block
+Projeto da Loja construido com tecnologia VTEX, para abrigar o chatbot e disponibilizar API para que o bot consiga consultar
+- [Repositório](https://github.com/GamaDevClub/leia_chatbot)
+- [Documentação API Search](https://developers.vtex.com/reference/search-3)
+
+### AWS Amplify Framework
+O Amplify Framework fornece um conjunto de bibliotecas, componentes de UI, uma CLI e diversas outras ferramentas para facilitar o desenvolvimento de apps utilizando as ferramentas da AWS. [Leia mais](https://aws.amazon.com/pt/amplify/framework/)
+
+- [Repositório](https://github.com/GamaDevClub/leia-bot-dev)
 
 ### Amazon Lex - AWS Chatbot
 O Amazon Lex é um serviço para a criação de interfaces de conversa em qualquer aplicativo usando voz e texto.
@@ -30,18 +48,22 @@ Você ou outros usuários com os quais você compartilha este arquivo podem usar
 - [Arquivo SAM](assets/leiaHook-SAM.yaml)
 
 
+## 🧭 Roadmap
+- Persistir em um Banco de Dados e Criar uma interface amigável para analisar os feedbacks dos usuários que a *Leia* não conseguir ajudar
+- 
+
 ## 💪 Nosso time
 
-- Alda Lopes [LinkedIn](https://www.linkedin.com/in/alda-monte-pmp-31a626b1/) . [Github](https://github.com/aldaclopes)
-- André Vinicius Fanchini Terrasan [LinkedIn](https://www.linkedin.com/in/andreterrasan) . [Github](https://github.com/andrevft)
-- Antonio Thiele [LinkedIn](https://www.linkedin.com/in/antoniothiele/) . [Github](https://github.com/capelaum)
-- Bruno Luiz de Siqueira [LinkedIn](https://www.linkedin.com/in/brunoluizdesiqueira) . [Github](https://github.com/brunoluizdesiqueira)
-- George Pereira de Azevedo Maia [LinkedIn](https://www.linkedin.com/in/georgemaia/) . [Github](https://github.com/georgemaia)
-- Jackson Alves Sousa [LinkedIn](https://www.linkedin.com/in/jackson-alves541/) . [Github](https://github.com/jackson541/)
-- Luís Vinicius Capelletto [LinkedIn](https://www.linkedin.com/in/luis-capelletto/) . [Github](https://github.com/antoniocarlos)
-- Vinicius Passos [LinkedIn](https://www.linkedin.com/in/vtpa/) . [Github](https://github.com/vtpa)
-- Vitor José da Silva [LinkedIn](https://www.linkedin.com/in/vitor-jose/) . [Github](https://github.com/vitormj)
-- Vivian Barbosa Reis [LinkedIn](https://www.linkedin.com/in/vivianbarbosareis/) . [Github](https://github.com/vivianreis)
+- Alda Lopes < [LinkedIn](https://www.linkedin.com/in/alda-monte-pmp-31a626b1/) . [Github](https://github.com/aldaclopes) >
+- André Vinicius Fanchini Terrasan < [LinkedIn](https://www.linkedin.com/in/andreterrasan) . [Github](https://github.com/andrevft) >
+- Antonio Thiele < [LinkedIn](https://www.linkedin.com/in/antoniothiele/) . [Github](https://github.com/capelaum) >
+- Bruno Luiz de Siqueira < [LinkedIn](https://www.linkedin.com/in/brunoluizdesiqueira) . [Github](https://github.com/brunoluizdesiqueira) >
+- George Pereira de Azevedo Maia < [LinkedIn](https://www.linkedin.com/in/georgemaia/) . [Github](https://github.com/georgemaia) >
+- Jackson Alves Sousa < [LinkedIn](https://www.linkedin.com/in/jackson-alves541/) . [Github](https://github.com/jackson541/) >
+- Luís Vinicius Capelletto < [LinkedIn](https://www.linkedin.com/in/luis-capelletto/) . [Github](https://github.com/antoniocarlos) >
+- Vinicius Passos < [LinkedIn](https://www.linkedin.com/in/vtpa/) . [Github](https://github.com/vtpa) >
+- Vitor José da Silva < [LinkedIn](https://www.linkedin.com/in/vitor-jose/) . [Github](https://github.com/vitormj) >
+- Vivian Barbosa Reis < [LinkedIn](https://www.linkedin.com/in/vivianbarbosareis/) . [Github](https://github.com/vivianreis) >
 
 
 <center><img src="./assets/obrigado.jpg" alt="Obrigado! DevClub" /></center>
