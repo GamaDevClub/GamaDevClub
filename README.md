@@ -15,6 +15,8 @@ Com base no desafio e no problema aceito, nasceu a *Leia*, personagem do nosso c
 3. Prazo de entrega: Disponibiliza serviços como retirar no ponto de venda ou Entrega Expressa
 4. Auxilio na busca: Mostra de forma resumida produtos relevantes baseado na busca do cliente, na própria conversa com a *Leia*
 
+**[🔗 Link para a loja teste da solução](https://hiringcoders3.myvtex.com/)**
+
 ## 📱 Telas
 ### Chatbot Lex
 <img src="./assets/leia_bot3.gif" alt="Chatbot AWS Lex" />
@@ -59,7 +61,9 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 
 ## 🧭 Roadmap
 - Persistir em um Banco de Dados e Criar uma interface amigável para analisar os feedbacks dos usuários que a *Leia* não conseguir ajudar
-- 
+- Utilizando a *API Gateway*, implementar o entendimento de contexto pelo bot, permitindo que o backend da *Leia* saiba em quais produtos o cliente nevegou, melhorando a capacidade de ajudar
+- Implementar a exibição de imagens e links na janela de chat da loja
+- Melhorar a interação da *Leia* consumindo outras APIs da VTEX
 
 ## 💪 Nosso time
 
