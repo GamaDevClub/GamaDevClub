@@ -5,6 +5,7 @@
 
 ## 🎯 O desafio
 > Desenvolver um canal de comunicação baseado em Chatbot, genérico, que possa “plugar" em outros marketplaces. Este chatbot deve se propor a resolver algum problema de comunicação.
+> Missão adicional: Plugar via API dois serviços super importantes para o funcionamento de qualquer loja: Um meio de pagamento e uma solução logística
 
 Nos propomos a utilizar o chatbot para mitigar o  **Abandono de compra**, detectando o movimento de fechamento da página e tentando, através da abertura da janela de chat, interagir e entender o usuário, visando converter a visita do cliente em uma compra.
 
@@ -19,16 +20,16 @@ Com base no desafio e no problema aceito, nasceu a *Leia*, personagem do nosso c
 
 ![Logo](assets/leia_chatbot_logo.jpg)
 
-## Leia chatbot
+## 🤖 Leia chatbot
 
-Leia chatbot é um robô desenvolvido para o ecossistema Vtex io.
-No momento da detecção de abandono de compra o chatbot interagi com o usuário, tentando converter a visita do cliente em uma compra.
+Leia chatbot é um robô desenvolvido para o ecossistema Vtex IO utilizando tecnologia AWS Lex e Lambda Function.
+No momento da detecção de abandono de compra o chatbot interage com o usuário, tentando converter a visita do cliente em uma compra.
 
-O chatbot Leia está disponível para instalação em qualquer tema Vtex.
+**O chatbot Leia está disponível para instalação em qualquer tema Vtex.**
 
 ![Demo](assets/bot_demo.PNG)
 
-### USABILIDADE
+### 🐱‍🏍 Usabilidade
 
 O bot torna-se ativo de duas formas:
 1. Por meio do hover sobre o seu header.
@@ -36,14 +37,14 @@ O bot torna-se ativo de duas formas:
 
 O bot pode ser fechado clicando no X. Esse procedimento limpa o histórico da conversa.
 
-### FEATURES
+### 🛠 Features
 
 1. Foi desenvolvido um sistema de ui próprio para a comunicação com o sistema lex da AWS. Por meio disso possibilitamos a visualização de responseCards dentro do chat.
 2. O bot percebe o contexto de produto de onde está sendo consultado possibilitando melhores indicações.
 
 ![Demo](assets/response_card.PNG)
 
-### CUSTOMIZAÇÃO
+### 🖌 Customização
 
 Leia chatbot é plug and play!
 Basta instalar em seu tema e preencher os dados na sessão de administrador da loja.
@@ -55,7 +56,7 @@ Basta instalar em seu tema e preencher os dados na sessão de administrador da l
 
 ![Demo](assets/admin.PNG)
 
-### TEMA DA LOJA
+### 👨‍🎨 TEMA DA LOJA
 
 - [Repositório](https://github.com/GamaDevClub/DevClub_theme)
 
@@ -89,14 +90,14 @@ O Amplify Framework fornece um conjunto de bibliotecas, componentes de UI, uma C
 ### Amazon Lex - AWS Chatbot
 O Amazon Lex é um serviço para a criação de interfaces de conversa em qualquer aplicativo usando voz e texto.
 O arquivo abaixo pode ser baixado e importado em uma Cloud da AWS para reproduzir a *Leia*.
-- [Arquivo .zip AWS Lex](assets/leiabot_dev_1_0dadbe2b-49ff-4883-86e7-a831f9f19e60_Bot_LEX_V2.zip)
+- [Arquivo .zip AWS Lex](assets/leiabot_dev_2_52672a91-16ff-4da0-945f-9e3956a399f4_Bot_LEX_V1.zip)
 
 ### AWS Lambda Function
 Faça download de um arquivo .ZIP que inclui o pacote de implantação (código e bibliotecas) e/ou um [arquivo SAM (Modelo de aplicativo sem servidor) da AWS](https://docs.aws.amazon.com/lambda/latest/dg/deploying-lambda-apps.html#serverless_app) que define a função, as fontes de eventos e as permissões.
 Você ou outros usuários com os quais você compartilha este arquivo podem usar o AWS CloudFormation para implantar e gerenciar um aplicativo sem servidor semelhante. [Saiba mais](https://docs.aws.amazon.com/lambda/latest/dg/serverless-deploy-wt.html#serverless-deploy) sobre como implantar um aplicativo sem servidor com o AWS CloudFormation.
 
-- [Arquivo .zip](assets/leiaHook-pacote-implantação.zip)
-- [Arquivo SAM](assets/leiaHook-SAM.yaml)
+- [Arquivo .zip](assets/leiaHook-pacote-implantação2.zip)
+- [Arquivo SAM](assets/leiaHook-SAM2.yaml)
 
 ### Amazon CloudWatch - Monitoração do Lex e Lambda
 As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução capturados foram criados Dashboards no CloudWatch para monitorar o tempo de respostas de ambos, volume de execuções e quantidade de erros. É possível consultar os dashboards através do link:
@@ -105,22 +106,27 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 
 - [Dashboard AWS Lambda Function: LeiaHook](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=LeiaHook&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTozYTEyM2Q3Zi0yYzYwLTRjNGUtYjdmNy01NjNiOWI0YWZiMGUiLCJNIjoiUHVibGljIn0=)
 
+### 💰 Custos da aplicação
 
-### Solução  para entrega das compras
+*Descrição de custos para AWS Lambda, Lex e Total*
+<img src="./assets/custos-lambda.jpg" alt="Custos Lambda" />
+<img src="./assets/custos-lex-total.jpg" alt="Custos Lex e Total" />
+
+### 🚚 Solução  para entrega das compras
  - Implementada a opção de entrega via Correios PAC (entrega econômica) ou Sedex (entrega expressa0,  através de configurações no VTEX ADMIN
 <img src="./assets/correios.png" alt="logo dos Correios indicando entrega via PAC ou SEDEX" />
 
  - Implementada a opção de retirada em loja fictícia localizada no centro de São Paulo, para clientes residentes na região metropolitana da Capital, através de configurações no VTEX ADMIN.
  
- ### Solução de pagamentos
+ ### 💳 Solução de pagamentos
   - Implementada opções de pagamentos por boleto ou cartões Visa, AMEX e Mastercard, através de API da Pagar.me, com opções de parcelamento nos cartões e emissão online do Boleto.
   <img src="./assets/pagarme.png" alt="logo da Pagar.me empresa de integração de pagamentos cartões e boleto" />
  
 ## 🧭 Roadmap
 - Persistir em um Banco de Dados e Criar uma interface amigável para analisar os feedbacks dos usuários que a *Leia* não conseguir ajudar
-- Utilizando a *API Gateway*, implementar o entendimento de contexto pelo bot, permitindo que o backend da *Leia* saiba em quais produtos o cliente nevegou, melhorando a capacidade de ajudar
-- Implementar a exibição de imagens e links na janela de chat da loja
+- Melhorar o entendimento de contexto pelo bot, permitindo que o backend da *Leia* saiba todos os produtos que o cliente nevegou, melhorando a capacidade de ajudar
 - Melhorar a interação da *Leia* consumindo outras APIs da VTEX
+- Melhorar a experiência de utilização via Whatsapp e implementar novos meios de chat, como Facebook Messenger, Telegram e outros.
 
 ## 💪 Nosso time
 
@@ -129,6 +135,7 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 - Antonio Thiele < [LinkedIn](https://www.linkedin.com/in/antoniothiele/) . [Github](https://github.com/capelaum) >
 - Bruno Luiz de Siqueira < [LinkedIn](https://www.linkedin.com/in/brunoluizdesiqueira) . [Github](https://github.com/brunoluizdesiqueira) >
 - Jackson Alves Sousa < [LinkedIn](https://www.linkedin.com/in/jackson-alves541/) . [Github](https://github.com/jackson541/) >
+- Marcio Lopes < [LinkedIn](https://www.linkedin.com/in/marciohelopes/) . [Github](https://github.com/marciohesteveslopes/) >
 - Vinicius Passos < [LinkedIn](https://www.linkedin.com/in/vtpa/) . [Github](https://github.com/vtpa) >
 - Vivian Barbosa Reis < [LinkedIn](https://www.linkedin.com/in/vivianbarbosareis/) . [Github](https://github.com/vivianreis) >
 
