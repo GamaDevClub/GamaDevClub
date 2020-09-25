@@ -57,6 +57,8 @@ Basta instalar em seu tema e preencher os dados na sessão de administrador da l
 
 ### TEMA DA LOJA
 
+- [Repositório](https://github.com/GamaDevClub/DevClub_theme)
+
 Foi desenvovido um tema minimalista baseado em tons de preto e dourado. Essa escolha foi feita para simular o período de black friday.
 
 ![Demo](assets/Capturar.PNG)
