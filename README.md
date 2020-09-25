@@ -109,8 +109,11 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 ### 💰 Custos da aplicação
 
 *Descrição de custos para AWS Lambda, Lex e Total*
-<img src="./assets/custos-lambda.jpg" alt="Custos Lambda" />
-<img src="./assets/custos-lex-total.jpg" alt="Custos Lex e Total" />
+ - Os custos foram calculados estimando 1 milhão de requisições por dia e tempo de resposta de 900ms confirme média obtida no CloudWatch.
+ - O custo total do Lamba foi calculado utilizando a calculadora da AWS e do Lex foi baseado nas informações de valores disponíveis na página do AWS LEx.
+ - O valor total estimado de custos é de: 778,53 dólares equivalendo hoje(25/09/2020) a 4347,55 reais.
+<img src="./assets/custos-lambda.jpg" alt="Tabela detalhada de Custos Lambda" />
+<img src="./assets/custos-lex-total.jpg" alt="Tabela detalhada Custos Lex e Total" />
 
 ### 🚚 Solução  para entrega das compras
  - Implementada a opção de entrega via Correios PAC (entrega econômica) ou Sedex (entrega expressa0,  através de configurações no VTEX ADMIN
