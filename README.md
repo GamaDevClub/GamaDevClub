@@ -29,6 +29,9 @@ Com base no desafio e no problema aceito, nasceu a *Leia*, personagem do nosso c
 
 ## ⚙ Tecnologias / Utilização
 
+### Desenho da arquitetura técnica
+<img src="./assets/arquitetura.jpg" alt="Desenho da arquitetura técnica" />
+
 ### VTEX Store Block
 Projeto da Loja construido com tecnologia VTEX, para abrigar o chatbot e disponibilizar API para que o bot consiga consultar
 - [Repositório](https://github.com/GamaDevClub/leia_chatbot)
