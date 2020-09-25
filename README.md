@@ -46,7 +46,7 @@ O bot pode ser fechado clicando no X. Esse procedimento limpa o histórico da co
 ### CUSTOMIZAÇÃO
 
 Leia chatbot é plug and play!
-Basta instalar em seu tema e fazer preencher os dados na sessão de administrador da loja.
+Basta instalar em seu tema e preencher os dados na sessão de administrador da loja.
 
 1. URL da imagem de avatar
 2. Nome que será usado pelo chatbot
