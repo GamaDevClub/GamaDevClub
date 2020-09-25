@@ -65,6 +65,9 @@ Foi desenvovido um tema minimalista baseado em tons de preto e dourado. Essa esc
 ### Chatbot Lex
 <img src="./assets/leia_bot3.gif" alt="Chatbot AWS Lex" />
 
+### Chabot no whatsApp via twilio
+
+![Demo](assets/leia-bot-whatsapp.gif)
 
 ## ⚙ Tecnologias / Utilização
 
