@@ -55,6 +55,12 @@ Basta instalar em seu tema e preencher os dados na sessão de administrador da l
 
 ![Demo](assets/admin.PNG)
 
+### TEMA DA LOJA
+
+Foi desenvovido um tema minimalista baseado em tons de preto e dourado. Essa escolha foi feita para simular o período de black friday.
+
+![Demo](assets/Capturar.PNG)
+
 ## 📱 Telas
 ### Chatbot Lex
 <img src="./assets/leia_bot3.gif" alt="Chatbot AWS Lex" />
