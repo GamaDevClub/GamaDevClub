@@ -17,15 +17,48 @@ Com base no desafio e no problema aceito, nasceu a *Leia*, personagem do nosso c
 
 **[🔗 Link para a loja teste da solução](https://hiringcoders3.myvtex.com/)**
 
+![Logo](assets/leia_chatbot_logo.jpg)
+
+## Leia chatbot
+
+Leia chatbot é um robô desenvolvido para o ecossistema Vtex io.
+No momento da detecção de abandono de compra o chatbot interagi com o usuário, tentando converter a visita do cliente em uma compra.
+
+O chatbot Leia está disponível para instalação em qualquer tema Vtex.
+
+![Demo](assets/bot_demo.PNG)
+
+### USABILIDADE
+
+O bot torna-se ativo de duas formas:
+1. Por meio do hover sobre o seu header.
+2. Por meio da saida do cursor pelo topo da página.
+
+O bot pode ser fechado clicando no X. Esse procedimento limpa o histórico da conversa.
+
+### FEATURES
+
+1. Foi desenvolvido um sistema de ui próprio para a comunicação com o sistema lex da AWS. Por meio disso possibilitamos a visualização de responseCards dentro do chat.
+2. O bot percebe o contexto de produto de onde está sendo consultado possibilitando melhores indicações.
+
+![Demo](assets/response_card.PNG)
+
+### CUSTOMIZAÇÃO
+
+Leia chatbot é plug and play!
+Basta instalar em seu tema e fazer preencher os dados na sessão de administrador da loja.
+
+1. URL da imagem de avatar
+2. Nome que será usado pelo chatbot
+3. Texto de chamada do chatbot
+4. Nome da loja, usado para requisições
+
+![Demo](assets/admin.PNG)
+
 ## 📱 Telas
 ### Chatbot Lex
 <img src="./assets/leia_bot3.gif" alt="Chatbot AWS Lex" />
 
-### Aplicação do Chatbot na loja
-<img src="./assets/tela_loja1.jpg" alt="Aplicação do Chatbot na loja" />
-
-### Configurações do chatbot no Painel VTEX
-<img src="./assets/tela_loja2.jpg" alt="Configurações do chatbot no Painel VTEX" />
 
 ## ⚙ Tecnologias / Utilização
 
