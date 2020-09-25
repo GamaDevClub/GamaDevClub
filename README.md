@@ -62,6 +62,16 @@ As execuções do Lex e Lambda são monitoradas. A partir dos logs de execução
 - [Dashboard AWS Lambda Function: LeiaHook](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=LeiaHook&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTU2Mjk0ODc3MTUzNiIsIlUiOiJ1cy1lYXN0LTFfdVlVMVhUZDg4IiwiQyI6IjNmZWY0c2Y2OWNlcGtzNmtodXY5Z2YwMm9pIiwiSSI6InVzLWVhc3QtMTozYTEyM2Q3Zi0yYzYwLTRjNGUtYjdmNy01NjNiOWI0YWZiMGUiLCJNIjoiUHVibGljIn0=)
 
 
+### Solução logística para entrega dos pedidos na loja
+ - Implementada a opção de entrega via Correios PAC (entrega econômica) ou Sedex (entrega expressa0,  através de configurações no VTEX ADMIN
+<img src="./assets/correios.png" alt="logo dos Correios indicando entrega via PAC ou SEDEX" />
+
+ - Implementada a opção de retirada em loja fictícia localizada no centro de São Paulo, para clientes residentes na região metropolitana da Capital, através de configurações no VTEX ADMIN.
+ 
+ ### Solução de pagamentos
+  - Implementada opções de pagamentos por boleto ou cartões Visa, AMEX e Mastercard, através de API da Pagar.me, com opções de parcelamento nos cartões e emissão online do Boleto.
+  <img src="./assets/pagarme.png" alt="logo da Pagar.me empresa de integração de pagamentos cartões e boleto" />
+ 
 ## 🧭 Roadmap
 - Persistir em um Banco de Dados e Criar uma interface amigável para analisar os feedbacks dos usuários que a *Leia* não conseguir ajudar
 - Utilizando a *API Gateway*, implementar o entendimento de contexto pelo bot, permitindo que o backend da *Leia* saiba em quais produtos o cliente nevegou, melhorando a capacidade de ajudar
